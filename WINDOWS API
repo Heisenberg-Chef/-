@@ -1,0 +1,13 @@
+HANDLE GetStdHandle( DWORD nStdHandle );
+GetStdHandle（）返回标准的输入、输出或错误的设备的句柄，也就是获得输入、输出/错误的屏幕缓冲区的句柄。
+
+nStdHandle
+值为下面几种类型的一种：
+值
+含义
+STD_INPUT_HANDLE
+标准输入的句柄
+STD_OUTPUT_HANDLE
+标准输出的句柄
+STD_ERROR_HANDLE
+标准错误的句柄
